@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { ethers } from 'ethers';
 import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
 
+// Update with the contract address logged out to the CLI when it was deployed 
+const greeterAddress = "your-contract-address"
 
 function App() {
   return (
