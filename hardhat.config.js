@@ -24,8 +24,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   networks: {
     hardhat: {},
     ropsten: {
-      url: "https://ropsten.infura.io/v3/your-project-id",
-      //accounts: [`0x${your-private-key}`]
+      url: "https://ropsten.infura.io/v3/d5530d276317431eb6e158a01cc9dd48",
+      accounts: [`0x$478548ddb2828b3f9b3dd51cbce3b7e14de9e7660226b574f7e13cdee6fa62dc`]
     }
   },
   solidity: "0.8.4",
